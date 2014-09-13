@@ -4,7 +4,7 @@
       "Toby Inkster (TOBYINK) <tobyink@cpan.org>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Dist::Inkt::Profile::TOBYINK version 0.013, CPAN::Meta::Converter version 2.120921",
+   "generated_by" : "Dist::Inkt::Profile::TOBYINK version 0.016, CPAN::Meta::Converter version 2.140640",
    "keywords" : [],
    "license" : [
       "perl_5"
@@ -56,7 +56,7 @@
    "provides" : {
       "Sub::Trigger::Lock" : {
          "file" : "lib/Sub/Trigger/Lock.pm",
-         "version" : "0.001"
+         "version" : "0.002"
       }
    },
    "release_status" : "stable",
@@ -68,7 +68,12 @@
       "homepage" : "https://metacpan.org/release/Sub-Trigger-Lock",
       "license" : [
          "http://dev.perl.org/licenses/"
-      ]
+      ],
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/tobyink/p5-sub-trigger-lock.git",
+         "web" : "https://github.com/tobyink/p5-sub-trigger-lock"
+      }
    },
-   "version" : "0.001"
+   "version" : "0.002"
 }

@@ -25,7 +25,11 @@
 	doap:maintainer      <http://purl.org/NET/cpan-uri/person/tobyink>;
 	doap:name            "Sub-Trigger-Lock";
 	doap:programming-language "Perl";
-	doap:release         <http://purl.org/NET/cpan-uri/dist/Sub-Trigger-Lock/v_0-001>;
+	doap:release         <http://purl.org/NET/cpan-uri/dist/Sub-Trigger-Lock/v_0-001>, <http://purl.org/NET/cpan-uri/dist/Sub-Trigger-Lock/v_0-002>;
+	doap:repository      [
+		a doap:GitRepository;
+		doap:browse <https://github.com/tobyink/p5-sub-trigger-lock>;
+	];
 	doap:shortdesc       "a coderef for use in Moose triggers that will lock hashrefs and arrayrefs".
 
 <http://purl.org/NET/cpan-uri/dist/Sub-Trigger-Lock/v_0-001>
@@ -36,6 +40,20 @@
 	doap-changeset:released-by <http://purl.org/NET/cpan-uri/person/tobyink>;
 	doap:file-release    <http://backpan.cpan.org/authors/id/T/TO/TOBYINK/Sub-Trigger-Lock-0.001.tar.gz>;
 	doap:revision        "0.001"^^xsd:string.
+
+<http://purl.org/NET/cpan-uri/dist/Sub-Trigger-Lock/v_0-002>
+	a                    doap:Version;
+	dc:identifier        "Sub-Trigger-Lock-0.002"^^xsd:string;
+	dc:issued            "2014-09-13"^^xsd:date;
+	doap-changeset:changeset [
+		doap-changeset:item [
+			a doap-changeset:Packaging;
+			rdfs:label "Add link to repo.";
+		];
+	];
+	doap-changeset:released-by <http://purl.org/NET/cpan-uri/person/tobyink>;
+	doap:file-release    <http://backpan.cpan.org/authors/id/T/TO/TOBYINK/Sub-Trigger-Lock-0.002.tar.gz>;
+	doap:revision        "0.002"^^xsd:string.
 
 <http://purl.org/NET/cpan-uri/person/tobyink>
 	a                    foaf:Person;
